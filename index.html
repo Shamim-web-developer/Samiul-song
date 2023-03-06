@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <title></title>
+    <style type="text/css" media="all">
+      * 
+      {
+        margin: 0;
+        padding: 0;
+      }
+      body 
+      {
+        background: #111;
+      }
+      .container 
+      {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+      }
+      video 
+      {
+        height: auto;
+        width: 90vw;
+        opacity: 1;
+        border: 2px solid #111;
+        border-radius: 1.6rem;
+        box-shadow: 0 0 20px #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <video oncontextmenu="return false" loop src="audio.mp4" controls controlsList="nodownload" poster="pic.png" preload="metadata" autoplay>Your Browser  doesn't support Audio/video</video>
+    </div>
+  </body>
+</html>
